@@ -6,9 +6,7 @@ router.get('/',personaController.consultar);
 
 router.post('/',personaController.ingresar);
 
-
-
-router.route("/:id")
+router.route('/:idPersona')
     .put(personaController.actualizar)
     .get(personaController.consultarDetalle);
 

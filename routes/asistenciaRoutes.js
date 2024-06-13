@@ -12,7 +12,7 @@ router.post('/',asistenciaController.ingresar);
 
 
 
-router.route("/:id")
+router.route("/:idAsistencia")
     .put(asistenciaController.actualizar)
     .get(asistenciaController.consultarDetalle);
 
